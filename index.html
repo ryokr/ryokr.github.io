@@ -261,15 +261,9 @@
         }
 
         @keyframes twinkle {
-
-            0%,
-            40%,
-            60%,
-            100% {
+            0%, 40%, 60%, 100% {
                 transform: scale(1);
-            }
-
-            50% {
+            } 50% {
                 transform: scale(0);
             }
         }
@@ -357,23 +351,21 @@
         <label for="sync">Sync &lt;body&gt;</label>
         <input id="sync" type="checkbox" />
     </div>
+    
     <button class="toggle" aria-pressed="false" title="Toggle Dark Mode">
         <span class="toggle__content">
-            <svg aria-hidden=true class="toggle__backdrop" xmlns="http://www.w3.org/2000/svg" fill="none"
-                viewBox="0 0 290 228">
+            <svg aria-hidden=true class="toggle__backdrop" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 290 228">
                 <g class="clouds">
-                    <path fill="#D9D9D9"
-                        d="M335 147.5c0 27.89-22.61 50.5-50.5 50.5a50.78 50.78 0 0 1-9.29-.853c-2.478 12.606-10.595 23.188-21.615 29.011C245.699 243.749 228.03 256 207.5 256a50.433 50.433 0 0 1-16.034-2.599A41.811 41.811 0 0 1 166 262a41.798 41.798 0 0 1-22.893-6.782A42.21 42.21 0 0 1 135 256a41.82 41.82 0 0 1-19.115-4.592A41.84 41.84 0 0 1 88 262c-1.827 0-3.626-.117-5.391-.343C74.911 270.448 63.604 276 51 276c-23.196 0-42-18.804-42-42s18.804-42 42-42c1.827 0 3.626.117 5.391.343C64.089 183.552 75.396 178 88 178a41.819 41.819 0 0 1 19.115 4.592C114.532 176.002 124.298 172 135 172a41.798 41.798 0 0 1 22.893 6.782 42.066 42.066 0 0 1 7.239-.773C174.137 164.159 189.749 155 207.5 155c.601 0 1.199.01 1.794.031A41.813 41.813 0 0 1 234 147h.002c.269-27.66 22.774-50 50.498-50 27.89 0 50.5 22.61 50.5 50.5Z" />
+                    <path fill="#D9D9D9" d="M335 147.5c0 27.89-22.61 50.5-50.5 50.5a50.78 50.78 0 0 1-9.29-.853c-2.478 12.606-10.595 23.188-21.615 29.011C245.699 243.749 228.03 256 207.5 256a50.433 50.433 0 0 1-16.034-2.599A41.811 41.811 0 0 1 166 262a41.798 41.798 0 0 1-22.893-6.782A42.21 42.21 0 0 1 135 256a41.82 41.82 0 0 1-19.115-4.592A41.84 41.84 0 0 1 88 262c-1.827 0-3.626-.117-5.391-.343C74.911 270.448 63.604 276 51 276c-23.196 0-42-18.804-42-42s18.804-42 42-42c1.827 0 3.626.117 5.391.343C64.089 183.552 75.396 178 88 178a41.819 41.819 0 0 1 19.115 4.592C114.532 176.002 124.298 172 135 172a41.798 41.798 0 0 1 22.893 6.782 42.066 42.066 0 0 1 7.239-.773C174.137 164.159 189.749 155 207.5 155c.601 0 1.199.01 1.794.031A41.813 41.813 0 0 1 234 147h.002c.269-27.66 22.774-50 50.498-50 27.89 0 50.5 22.61 50.5 50.5Z" />
                 </g>
             </svg>
             <span aria-hidden=true class="pilot__container">
                 <span class="pilot-bear">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none"
-                        viewBox="0 0 1448 938">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" viewBox="0 0 1448 938">
                         <mask id="a" fill="#fff">
                             <path fill-rule="evenodd"
                                 d="M869.02 210.61c16.067-3.967 27.98-18.476 27.98-35.768C897 154.495 880.505 138 860.158 138c-14.337 0-26.761 8.19-32.85 20.146C815.313 151.674 801.586 148 787 148h-20c-14.52 0-28.19 3.641-40.146 10.059C720.749 146.15 708.351 138 694.048 138c-20.347 0-36.842 16.495-36.842 36.842 0 17.222 11.818 31.685 27.787 35.72A85.104 85.104 0 0 0 682 233v225c0 12.15 9.85 22 22 22h44c12.15 0 22-9.85 22-22v-28.69a41.072 41.072 0 0 0 14 .174V458c0 12.15 9.85 22 22 22h44c12.15 0 22-9.85 22-22v-74.797a28.992 28.992 0 0 0 6.946-5.137l44.548-44.548c11.325-11.325 11.325-29.687 0-41.012s-29.687-11.325-41.012 0L872 302.988V233a85.094 85.094 0 0 0-2.98-22.39Z"
-                                clip-rule="evenodd" />
+                                clip-rule="evenodd"/>
                         </mask>
                         <path fill="#AF7128" fill-rule="evenodd"
                             d="M869.02 210.61c16.067-3.967 27.98-18.476 27.98-35.768C897 154.495 880.505 138 860.158 138c-14.337 0-26.761 8.19-32.85 20.146C815.313 151.674 801.586 148 787 148h-20c-14.52 0-28.19 3.641-40.146 10.059C720.749 146.15 708.351 138 694.048 138c-20.347 0-36.842 16.495-36.842 36.842 0 17.222 11.818 31.685 27.787 35.72A85.104 85.104 0 0 0 682 233v225c0 12.15 9.85 22 22 22h44c12.15 0 22-9.85 22-22v-28.69a41.072 41.072 0 0 0 14 .174V458c0 12.15 9.85 22 22 22h44c12.15 0 22-9.85 22-22v-74.797a28.992 28.992 0 0 0 6.946-5.137l44.548-44.548c11.325-11.325 11.325-29.687 0-41.012s-29.687-11.325-41.012 0L872 302.988V233a85.094 85.094 0 0 0-2.98-22.39Z"
@@ -561,7 +553,6 @@
             </svg>
             <span class="astrobear__container">
                 <span class="astrobear">
-
                     <svg aria-hidden=true xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 316 432">
                         <circle cx="158" cy="143" r="140" fill="#444" />
                         <circle cx="158" cy="143" r="140" fill="url(#aa)" fill-opacity=".2" />
@@ -626,17 +617,30 @@
     </button>
 
     <script>
-        const BUTTON = document.querySelector("button");
-        const SYNC = document.querySelector("#sync")
-
-        const TOGGLE = () => {
-            const IS_PRESSED = BUTTON.matches("[aria-pressed=true]");
-            if (SYNC.checked)
-                document.body.setAttribute("data-dark-mode", IS_PRESSED ? false : true);
-            BUTTON.setAttribute("aria-pressed", IS_PRESSED ? false : true);
+        const button = document.querySelector("button");
+        const sync = document.querySelector("#sync");
+        
+        const toggle = () => {
+            const isPressed = button.matches("[aria-pressed=true]");
+            const darkMode = !isPressed && sync.checked;
+            document.body.setAttribute("data-dark-mode", darkMode);
+            button.setAttribute("aria-pressed", !isPressed);
         };
+        
+        button.addEventListener("click", toggle);
 
-        BUTTON.addEventListener("click", TOGGLE);
+        
+        // const BUTTON = document.querySelector("button");
+        // const SYNC = document.querySelector("#sync")
+
+        // const TOGGLE = () => {
+        //     const IS_PRESSED = BUTTON.matches("[aria-pressed=true]");
+        //     if (SYNC.checked)
+        //         document.body.setAttribute("data-dark-mode", IS_PRESSED ? false : true);
+        //     BUTTON.setAttribute("aria-pressed", IS_PRESSED ? false : true);
+        // };
+
+        // BUTTON.addEventListener("click", TOGGLE);
 
 
     </script>
